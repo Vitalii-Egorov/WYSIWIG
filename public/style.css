@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    font-family: "Roboto", sans-serif;
+    color: #eaeaea;
+    background: #1e1e1e;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 77px 114px 107px 107px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+@media (max-width: 992px) {
+    .container {
+        padding: 37px 84px 77px 77px;
+    }
+    img {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        padding: 17px 34px 27px 27px;
+    }
+}
+@media (max-width: 425px) {
+    .action {
+        gap: 0px !important;
+    }
+}
+
+.ql-editor {
+    margin: 0 auto;
+    padding: 0;
+}
+.ql-editor:focus-visible {
+    outline: none;
+}
+.action {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 31px;
+}
+
+.action__link {
+    color: #639eff;
+    font-size: 15px;
+    line-height: 153.333%;
+}
+.action__link:last-child {
+    padding-left: 7px;
+}
+.action__link:hover {
+    color: #2865c9;
+}
+
+.ql-editor p {
+    max-width: 621px;
+    margin-top: 31px;
+    font-size: 15px;
+    line-height: 153.333%;
+}
+.ql-editor p:first-child {
+    margin-top: 0px;
+}
+.ql-editor h1 {
+    max-width: 621px;
+    margin-top: 46px;
+    font-size: 31px;
+    line-height: 74.194%;
+}
+.ql-editor h1:first-child {
+    margin-top: 0px;
+}
+img {
+    max-width: 739px;
+    padding-right: 10px;
+}
+.ql-clipboard {
+    display: none;
+}
